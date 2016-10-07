@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DBSuite" parallel="false">
+  <test name="Firefox Test">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestCases.ViewDashboard"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Chrome Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.ViewDashboard"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="IE Test">
+  <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="TestCases.ViewDashboard"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

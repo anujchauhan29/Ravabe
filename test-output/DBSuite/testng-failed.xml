@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DBSuite]">
+  <parameter name="browser" value="IE"/>
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestCases.ViewDashboard">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="viewDashboard"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.ViewDashboard -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="IE Test(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="TestCases.ViewDashboard">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="viewDashboard"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.ViewDashboard -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+</suite> <!-- Failed suite [DBSuite] -->
